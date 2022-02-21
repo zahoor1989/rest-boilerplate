@@ -1,26 +1,21 @@
 {
-  "name": "rest-template",
+  "name": "Internal-test",
   "version": "1.0.0",
-  "description": "Template for Node.js RestAPIS",
+  "description": "Test for Node.js RestAPIS",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon index.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/lorenzhohmann/rest-template.git"
+    "start": "nodemon index.js"
   },
   "author": "LH",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/lorenzhohmann/rest-template/issues"
-  },
-  "homepage": "https://github.com/lorenzhohmann/rest-template#readme",
   "dependencies": {
+    "axios": "^0.24.0",
     "cors": "^2.8.5",
     "dotenv": "^9.0.2",
     "express": "^4.17.1",
-    "mysql": "^2.18.1"
+    "lodash": "^4.17.21",
+    "mysql": "^2.18.1",
+    "node-cache": "^5.1.2"
   },
   "devDependencies": {
     "nodemon": "^2.0.7"
